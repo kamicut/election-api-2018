@@ -2,3 +2,8 @@
 %project=election-api
 
 appschema 2018-05-15T19:08:43Z Marc Farra <marcfarra@gmail.com> # Add schema for all objects
+lists [appschema] 2018-05-15T19:26:18Z Marc Farra <marcfarra@gmail.com> # Create table for election lists
+kalams [appschema] 2018-05-15T19:38:49Z Marc Farra <marcfarra@gmail.com> # Create table for kalams
+candidates [lists] 2018-05-15T19:42:47Z Marc Farra <marcfarra@gmail.com> # Create table for candidates
+results_candidates [candidates kalams] 2018-05-15T19:49:57Z Marc Farra <marcfarra@gmail.com> # Create table for results of candidates
+results_lists [lists kalams] 2018-05-15T19:54:14Z Marc Farra <marcfarra@gmail.com> # Create table for results of lists
