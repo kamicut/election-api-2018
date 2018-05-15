@@ -1,3 +1,4 @@
 %syntax-version=1.0.0
 %project=election-api
 
+appschema 2018-05-15T19:08:43Z Marc Farra <marcfarra@gmail.com> # Add schema for all objects
